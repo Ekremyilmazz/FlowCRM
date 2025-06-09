@@ -1,0 +1,34 @@
+# Shared: Node and general files
+**/node_modules/
+**/dist/
+**/build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# Shared: sensitive environment files
+**/.env
+**/.env.local
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+frontend/.eslintcache
+
+# Backend
+backend/dist/
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Others
+*.sqlite
+*.sql
+*.tgz
+
+# Optional: coverage and test outputs (if available)
+coverage/
