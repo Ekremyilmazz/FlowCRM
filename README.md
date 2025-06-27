@@ -33,6 +33,13 @@ It helps businesses manage customer data, track sales, and improve internal work
 - Postman: Used for testing RESTful APIs (GET, POST, etc.).
 - GitHub: Version control and collaborative development platform.
 
+## 🧱 Software Architecture
+- The FlowCRM system is built using a modular and layered architecture, providing scalability, maintainability, and security.
+- Frontend Layer: Handles all user interactions and UI rendering. It communicates with the backend via REST API.
+- Backend Layer: Manages all business logic, authentication, and authorization. It serves as an API layer between frontend and database.
+- Database Layer: Stores all application data including users, products, customers, and sales.
+- ![Image](https://github.com/user-attachments/assets/cc7544f6-84b3-46a2-a475-0547f6b36e42)
+
 ## 📥 Installation
 
 1. Clone the repository
