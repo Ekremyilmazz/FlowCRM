@@ -45,7 +45,7 @@ It helps businesses manage customer data, track sales, and improve internal work
 1. Clone the repository
 
    ```bash
-   https://github.com/Ekremyilmazz/FlowCRM.git
+   git clone https://github.com/Ekremyilmazz/FlowCRM.git
 2. Option 1: Run with Docker
    ```
    docker-compose up --build
